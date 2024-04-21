@@ -1,0 +1,7 @@
+id,name,description,url,named_url,menu_id,parent_id
+1,menuitemnode1_1,,,menuitemnode1_1,1,NULL
+2,menuitemnode2_1,,,menuitemnode2_1,2,NULL
+3,menuitem1_1_1,,,menuitem1_1_1,1,1
+4,menuitem1_1_2,,http://127.0.0.1:8000/main_menu/menuitemnode1_1/menuitem1_1_2/,menuitem1_1_2,1,1
+5,menuitemnode1_2,,http://127.0.0.1:8000/main_menu/menuitemnode1_2/,menuitemnode1_2,1,NULL
+6,item_level_1_1_1,,,item_level_1_1_1,1,3
