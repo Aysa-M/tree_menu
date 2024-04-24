@@ -31,7 +31,7 @@ class MenuItem(models.Model):
                                    max_length=255,
                                    blank=True)
     parent = models.ForeignKey('self', null=True, blank=True,
-                               related_name='children',
+                               related_name='children', default=0,
                                on_delete=models.CASCADE)
     url = models.CharField(verbose_name='item_link', max_length=255,
                            blank=True)

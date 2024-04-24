@@ -24,7 +24,7 @@ def draw_menu(menu_name: str | None = None,
         if menu_item is not None:
             menu = list(items.filter(parent__name=menu_item))
         else:
-            menu = list(items.filter(parent=None))
+            menu = list(items.filter(parent=0))
 
         try:
             menu.insert(menu.index(submenu[0].parent) + 1, submenu)
